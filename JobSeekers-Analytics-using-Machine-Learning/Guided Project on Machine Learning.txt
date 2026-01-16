@@ -1,0 +1,217 @@
+Guided Project on Machine Learning
+
+Name
+Email ID
+EXP
+Phone No
+trechnical Skills
+college name 
+branch
+education details
+domain
+location
+ECTC
+CCTC
+CPGA of Degree 
+projects
+updated resume 
+Certifications 
+
+
+Hired or not 
+
+SHape of the date === 1155 rows and 30 columns!!!! 
+
+Framework for Machine learning projects!!!! 
+
+CRSIP-ML(Q) 
+
+Stages or phases? 
+
+6
+
+1. Business and data Understanding 
+
+-1 to +1 
+
+>0.85 --- Strong
+>0.4 and <0.85 -- Moderate 
+<0.4 --- Weak 
+
+Distribution of the data -- Histogram 
+Types of distributrion ---3 
+
+Normal distribution
+Left Skewed data
+Right Skewed data 
+
+Outliers in the data -- Box plot!!!! 
+
+I want to see my catgorical columns --- Count plot!!! 
+
+Correlation between the numerical columns --- Heat Map 
+
+We can't check the correalation for the categorical columns!!! 
+
+data preprocessing steps:
+1. Handling of the Dupliactes!!!!
+2. Handling of the Null values
+3. handling of the outliers
+4. Feature Scaling --- Numerical Columns 
+5. Encoding of the data --- Categorical Columns 
+6. Feature Engineering 
+
+Missing values!!! 
+Mean
+median
+Mode
+Interploation = interpolate(method = "linear") 
+Ffill 
+Bfill
+
+fillna()
+fillna(methid ='ffill") 
+
+
+Outliers!!!! 
+
+3 types
+1.Z-score!!!! when the data is Normally distributed!!!!
+-3 to +3 
+X-mean / STandard Deviation
+
+it is used to REMOVE THE Outliers in the data!!!! 
+
+
+IQR method 
+
+Inter Quartile Range!!!
+
+IQR = Q3-Q1 
+describe()
+
+It is also used to remove the Outliers!!
+Lower Boundary === Q1-1.5*IQR
+Upper Boundary === Q3+1.5*IQR 
+
+Based upon the boundaries we will be removing the outliers!!!!
+
+3. Capping Technique -- Winsorization!!!!-- Retain the Outliers!!!! 
+
+Lower boundary -- 0.05 -- 5th Percentile 
+Upper boundary -- 0.95 -- 95th Percentile 
+
+
+Feature SCaling!!!! 
+
+Numerical Columns!!!!
+
+
+sir can you please explain the code for this hyperparameter tuning method?
+
+3
+
+STandard SCalar  === -3 to +3
+Min Max SCalar === 0 to 1 
+Robust Scalar == -1 to +1 
+
+Encoding of the data
+
+Label Encoder 
+One-Hot  
+
+Feature Engineering!!!!! -- Correlation or the heatMap 
+
+Data Preprocessing steps are done!!!! 
+
+Train and Test Split of the data!!!
+
+80:20 or 70:30 respectively!!!!
+
+Train will be 80 or 70 
+Test will be 20 or 30 
+
+Sir do we need to perform all the steps of data preprocessing for every model we make either it is classification or regression?
+
+YES!!!!!!!!!
+
+Model Building Phase!!!! 
+
+
+Supervised learning -- Classification Models
+Logistic Regression
+KNN
+SVM
+Decision Tree
+Random Forest
+
+Model EValuation Metrics:
+Accuracy
+Precision
+F1-Score
+recall
+
+Classification Report!!!!!! 
+
+75%
+
+Hyperparameter Tuning!!!! 
+2 
+Gridsearch CV 
+Randomized Search CV 
+
+
+can you explain cross validation
+
+sir can you please explain the code for this hyperparameter tuning method?
+
+how to select feature which categorical? -- dtypes!!!! 
+
+You are going to build the model using Default parameters!!!
+
+
+You are not satified with the results!!!!
+
+
+You are asking the model that based upon the data can you helpme with the BEST parameters so that I will use them and best accuracy!!!
+
+
+how one hour will be sufficient for a complete project on ML sir. this should have been more
+
+sir sometimes i get confused which outlier technique to go with  can you tell when to use which one
+
+can you explain overfitting and underfitting  concepts
+
+
+Z-Score --- WHen your entire Numerical data is ND
+IQR -- When your entire numerical columns data is Not Normally DIstributed 
+
+Winsorization -- We will not remove the outliers whether your data is ND or not 
+
+can you explain overfitting and underfitting concepts
+
+
+overfitting === When your Train accuracy is Less and Test accuracy is High 
+
+T-Shirt -- M === Trained with M Size!!!! 
+
+Test -  M but when you wear it is LOOSE !!!!!
+
+Underfitting ---- when your Train Accuracy is High and Test is Low
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
